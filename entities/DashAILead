@@ -1,0 +1,38 @@
+{
+  "name": "DashAILead",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "title": "Name"
+    },
+    "email": {
+      "type": "string",
+      "title": "Email"
+    },
+    "role": {
+      "type": "string",
+      "title": "Role"
+    },
+    "organization": {
+      "type": "string",
+      "title": "Organization"
+    },
+    "tier": {
+      "type": "string",
+      "title": "Tier"
+    },
+    "challenge": {
+      "type": "string",
+      "title": "Challenge Description"
+    },
+    "recommended_path": {
+      "type": "string",
+      "title": "Recommended Path"
+    }
+  },
+  "required": [
+    "name",
+    "email"
+  ]
+}
